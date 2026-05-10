@@ -23,7 +23,7 @@
   }
 
   .product-item {
-    @apply relative shadow-md rounded-4xl bg-white;
+    @apply relative shadow-md rounded-4xl bg-white transition-transform ease-in duration-300 hover:scale-110;
   }
 
   .product-img {
